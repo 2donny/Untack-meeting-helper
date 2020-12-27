@@ -4,8 +4,19 @@
 }
 
 .result {
-    height: 150px;
+    height: 350px;
     border: 1px solid black;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.recognized-textarea {
+    height: 50px;
+    width: 50%;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    overflow: scroll;
 }
 
 .recording-state {
@@ -19,4 +30,22 @@
 }
 .recording {
     background-color: red;
+}
+
+.description {
+    text-align: center;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    font-size: 15px;
+    font-weight: 500;
+}
+.no {
+    display: none;
+}
+
+.Button-area {
+    display: flex;
+    
 }
